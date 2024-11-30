@@ -1,0 +1,63 @@
+/* Reset mặc định */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    padding: 40px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5),
+                0px 0px 20px rgba(0, 255, 255, 0.8);
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #00ffcc;
+    text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffee, 0 0 20px #00ffee;
+}
+
+.ip-box {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+.ip-text {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #00ffee;
+    text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffee, 0 0 30px #00ffee;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 0;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+    text-shadow: 0 0 5px rgba(0, 255, 255, 0.5);
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.5);
+}
+
+footer p {
+    margin: 0;
+}
